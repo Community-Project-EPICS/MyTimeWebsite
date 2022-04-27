@@ -1,0 +1,141 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 991px) {
+
+
+  .hero_area {
+    min-height: auto;
+  }
+
+
+  .slider_section {
+    padding-top: 45px;
+    padding-bottom: 90px;
+  }
+
+
+  .header_section .social_box {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+
+  .slider_section {
+    padding-top: 45px;
+    padding-bottom: 75px;
+  }
+
+  .slider_section .detail_box {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .about_section .img-box {
+    margin-bottom: 45px;
+
+  }
+
+  .contact_section .form_container {
+    margin-bottom: 45px;
+  }
+
+  .quote_container {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 0;
+  }
+
+  .info_section .contact_nav {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .info_section .contact_nav a {
+    margin-bottom: 15px;
+  }
+
+  .info_section .row>div {
+    text-align: center;
+  }
+
+  .info_section .info_post .post_box {
+    justify-content: center;
+  }
+
+  .info_section .info_links .info_links_menu a {
+    flex-basis: 100%;
+  }
+
+
+  .info_form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .info_form .social_box {
+    justify-content: center;
+  }
+
+  .info_form .social_box a {
+    margin: 0 5px;
+  }
+
+  .info_section .social_box {
+    justify-content: center;
+  }
+
+  .info_section .social_box a {
+    margin: 0 5px;
+  }
+
+  .info_section .info_form input {
+    text-align: center;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .client_section .box .detail_container {
+    padding: 0 25px 5px 0;
+  }
+
+  .client_section .box .detail-box {
+    padding: 20px 20px 20px 50px;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {
+
+  .slider_section .detail-box .btn-box {
+    flex-direction: column;
+  }
+
+  .slider_section .detail-box .btn-box a {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
